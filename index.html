@@ -2,27 +2,26 @@
 <html lang="en">
     <head>
         <meta name="description" content="Email for paddle boston">
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Paddle_boston_confermation</title>
         <style>
             .container{
-                font-family: Arial, Helvetica, sans-serif;
-                
+                font-family: Arial, Helvetica, sans-serif;  
             }
             body{
                 background-color: #fafafafa;
             }
-        
         </style>
     </head>
     <body>
-        <table width="100%" style="background-color: #f8f8f8;">
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color: #f8f8f8;">
             <tr>
                 <td>    
                     <!--start of container-->
                     <table class="container" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color: #3e75c9; width: 600px;">
+                        <!--start of header -->
                         <tr>
                             <td>
                                 <!--start of header -->
@@ -49,7 +48,7 @@
                                 </table>
                                 <!--end of header-->
                                 <!--start of customer info-->
-                                <table align="center">
+                                <table class="customer-info" align="center">
                                     <tr>
                                         <td align="center">
                                             <h4 style="margin: 0;">
@@ -60,7 +59,12 @@
                                     </tr>
                                 </table>
                                 <!--end of customer info-->
-                                <!--start of list-->
+                            </td>
+                        </tr>
+                        <!--end of header-->
+                        <!--start of list-->
+                        <tr>
+                            <td>
                                 <table class="reservation-detail" width="50%" align="center">
                                     <tr>
                                         <td>
@@ -123,8 +127,12 @@
                                         </td>
                                     </tr>
                                 </table>
-                                <!--end of list-->
-                                <!--start of pics section-->
+                            </td>
+                        </tr>
+                        <!--end of list-->
+                        <!--start of pics section-->
+                        <tr>
+                            <td>
                                 <table width="100%" class="pic-section" align="center">
                                     <tr>
                                         <td>
@@ -144,18 +152,19 @@
                                             <table width="100%" align="center">
                                                 <tr>
                                                     <td align="center" style="color: orange;font-size: 16px;">
-                                                        <p>
-                                                            Views on the Charles from historic boat house
-
-                                                        </p>
+                                                        <p>Views on the Charles from historic boat house</p>
                                                     </td>
                                                 </tr>
                                             </table>
                                         </td>
                                     </tr>
                                 </table>
-                                <!--End of pics section-->
-                                <!--start of social media-->
+                            </td>
+                        </tr>
+                        <!--End of pics section-->
+                        <!--start of social media-->
+                        <tr>
+                            <td>
                                 <table align="center">
                                     <tr>
                                         <td>
@@ -186,22 +195,22 @@
                                                 <tr>
                                                     <td style="padding-right: 15px;">
                                                         <a href="https://www.facebook.com/PaddleBoston">
-                                                            <img width="45" height="auto" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/150px-Facebook_f_logo_%282021%29.svg.png" alt="facebook logo" style="">
+                                                            <img width="45" height="auto" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/150px-Facebook_f_logo_%282021%29.svg.png" alt="facebook logo">
                                                         </a>
                                                     </td>
                                                     <td style="padding-right: 15px;">    
                                                         <a href="http://twitter.com/PaddleBoston/">
-                                                            <img width="45" height="auto" src="data:image/png;base64,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" alt="twitter logo" style="">
+                                                            <img width="45" height="auto" src="data:image/png;base64,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" alt="twitter logo">
                                                         </a>
                                                     </td>
                                                     <td style="padding-right: 15px;">    
                                                         <a href="http://www.youtube.com/user/PaddleBoston">
-                                                            <img width="45" height="auto" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/colored/youtube@2x.png" alt="you tube logo" style="">
+                                                            <img width="45" height="auto" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/colored/youtube@2x.png" alt="you tube logo">
                                                         </a>
                                                     </td>
                                                     <td>    
                                                         <a href="https://www.instagram.com/paddleboston/">
-                                                            <img width="45" height="auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png" alt="insta logo" style="">
+                                                            <img width="45" height="auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png" alt="insta logo">
                                                         </a>    
                                                     </td>
                                                 </tr>
@@ -209,8 +218,12 @@
                                         </td>
                                     </tr>
                                 </table>
-                                <!--end of social media-->
-                                <!--start of footer-->
+                            </td>
+                        </tr>
+                        <!--end of social media-->
+                        <!--start of footer-->
+                        <tr>
+                            <td>
                                 <table align="center"  style="font-size: 12px; font-weight: 500;">
                                     <tr>
                                         <td>
@@ -237,9 +250,9 @@
                                         </td>
                                     </tr>
                                 </table>
-                                <!--end of footer-->
                             </td>
                         </tr>
+                        <!--end of footer-->
                     </table>
                     <!--end of container-->
                 </td>
